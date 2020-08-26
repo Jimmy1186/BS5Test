@@ -1,0 +1,119 @@
+body {
+  flex-direction: column;
+}
+
+.carousel {
+  height: 100vh;
+}
+
+.carousel .carousel-inner {
+  height: 100vh;
+}
+
+.carousel .carousel-inner .titleBox {
+  position: absolute;
+  top: 27%;
+  z-index: 2;
+  color: wheat;
+  box-sizing: border-box;
+  padding: 0 20%;
+  background: #a52a2a54;
+}
+
+.carousel .carousel-inner .titleBox .h1Title {
+  font-weight: bolder;
+}
+
+.carousel .carousel-inner .carousel-item {
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.slidImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+header .navbar {
+  background-color: #ffffff40 !important;
+}
+
+.detail {
+  width: 100%;
+  height: 120vh;
+  background: #c5c5a5bd;
+  z-index: 1;
+}
+
+.detail .pdGrid {
+  margin: 10% 0;
+}
+
+.detail .pdGrid .card {
+  border: none;
+  background: #ffffffc7;
+}
+
+.detail .pdGrid .itemIcon {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+  .detail {
+    height: auto;
+  }
+}
+
+.moreDetail {
+  width: 100%;
+  height: 200vh;
+  background: #deb887e6;
+  z-index: 1;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background: #0e1327e6;
+  z-index: 1;
+  color: white;
+}
+
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  padding-top: 50px;
+}
+
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.ctTitle {
+  color: white;
+  padding: 50px 0;
+}
+
+.cright {
+  color: white;
+  position: relative;
+  bottom: -45px;
+}
+/*# sourceMappingURL=costom.css.map */
